@@ -1,0 +1,37 @@
+body {
+    box-sizing: border-box;
+}
+
+form {
+    min-height: 70vh;
+    width: 30%;
+    margin: 20vh auto;
+    padding: 1rem;
+    border: 1px solid rgb(126, 50, 50);
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+label {
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+input {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #2980B9;
+    border-radius: .8rem;
+    font-size: 1.2rem;
+}
+
+.button {
+    width: auto;
+    border: 1px solid #117159;
+    background: #117159;
+    color: white;
+}
