@@ -16,12 +16,12 @@ form {
     flex-direction: column;
 }
 
-label {
+form > label {
     font-size: 2rem;
     line-height: 3rem;
 }
 
-input {
+form > input {
     padding: 1rem;
     margin-bottom: 1rem;
     border: 1px solid #2980B9;
@@ -29,21 +29,31 @@ input {
     font-size: 1.2rem;
 }
 
-.checkbox {
+form .checkbox {
+    display: flex;
+    align-items: center;
     height: 4rem;
 }
 
-.checkbox > input {
+form .checkbox label:first-of-type {
+    font-size: 2rem;
+    line-height: 3rem;
+    line-height: 1rem;
+}
+
+form .checkbox input:first-of-type {
+    position: relative;
+    top: 0.2rem;
+
     height: 1.1rem;
     width: 1.1rem;
 }
 
-.checkbox label {
-    list-height: 1rem;
-}
-
 .button {
-    width: auto;
+    display: block;
+    width: fit-content;
+    margin: auto;
+
     border: 1px solid #117159;
     background: #117159;
     color: white;
