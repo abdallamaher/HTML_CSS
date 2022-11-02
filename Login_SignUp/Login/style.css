@@ -29,6 +29,19 @@ input {
     font-size: 1.2rem;
 }
 
+.checkbox {
+    height: 4rem;
+}
+
+.checkbox > input {
+    height: 1.1rem;
+    width: 1.1rem;
+}
+
+.checkbox label {
+    list-height: 1rem;
+}
+
 .button {
     width: auto;
     border: 1px solid #117159;
