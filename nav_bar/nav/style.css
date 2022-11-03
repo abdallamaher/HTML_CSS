@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    /* border: 1px solid red; */
+    padding: 1rem;
+    font-size: 18px;
+    background-color: #6e072d;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    /* border: 1px solid green; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+li {
+    list-style-type: none;
+    padding: 1em 1.5em;
+    cursor: pointer;
+}
+
+li:not(:first-of-type) {
+    border-left: 2px solid white;
+}
+
+li:hove {
+    background-color: #b90e4d;
+}
